@@ -1,10 +1,9 @@
 //server-side render
-import Router from 'express'
+const express = require('express');
+const router = express.Router();
 
-import * as staticPages from '../controllers/StaticPages'
-
-const router = Router();
+const staticPages = require('../controllers/StaticPages');
 
 router.get('*', staticPages.path);
 
-export default router;
+module.exports = router;
