@@ -17,7 +17,7 @@ export default class Index extends React.Component {
 				</head>
 				<body>
 					<Routes/>
-					<script src='client.min.js'></script>
+					<script type='text/babel' src='client.min.js'></script>
 				</body>
 			</html>
 		)
