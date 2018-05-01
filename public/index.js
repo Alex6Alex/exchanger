@@ -13,7 +13,7 @@ export default class Index extends React.Component {
 					<title>
 						Обменник
 					</title>
-					<link rel='stylesheet' type='text/css' href='styles/style.css'/>
+					<link rel='stylesheet' type='text/css' href='./styles/style.css'/>
 				</head>
 				<body>
 					<Routes/>
