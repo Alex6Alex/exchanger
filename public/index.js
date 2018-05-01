@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './styles/style.css'
 import Routes from '../app/routes/Routes'
 
 export default class Index extends React.Component {
@@ -13,7 +13,7 @@ export default class Index extends React.Component {
 					<title>
 						Обменник
 					</title>
-					<link type='text/css' href='styles/style.css'/>
+					<link rel='stylesheet' type='text/css' href='./styles/style.css'/>
 				</head>
 				<body>
 					<Routes/>
