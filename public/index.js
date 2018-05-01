@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/style.css'
+
 import Routes from '../app/routes/Routes'
 
 export default class Index extends React.Component {
