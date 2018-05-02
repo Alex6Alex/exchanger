@@ -30,4 +30,4 @@ app.use(sassMiddleware({
 app.use(express.static('public'));
 app.use(router);
 //favicon
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
